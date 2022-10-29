@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Gestion des Tâches</title>
+        <link rel="stylesheet" href="css/style.css" />
+
+        
+    </head>
+    <body>
+
+        <center>
+            <h1>Gestion des Tâches</h1>
+
+         <br>
+
+        <div class="contenu" >
+            <br>
+            <br>
+            <form>
+                <input class="tache" type="text" id="tache"/>
+            </form>
+            <br>
+            <button class="bouton" id="add">Ajouter une Tâche</button>
+            <br>
+            <br>
+            <button class="bouton" onclick='window.location.reload(false)'>Rafraichir </button>
+            <br>
+            <br>
+
+            <div id="taches">
+            </div>
+
+            <div id="fini">
+                <h2>Tâches Finies</h2>
+            </div>
+        </div>
+        </center>
+
+
+        <script src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
+        <script src="js/action.js"></script>
+
+    </body>
+</html>

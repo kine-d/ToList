@@ -1,0 +1,51 @@
+
+            body { 
+                background: rgb(225, 229, 239); 
+                color: rgb(253, 248, 248); 
+                padding: 50px; 
+                font-family: sans-serif; 
+            }
+            .contenu {
+                width:600px;
+                height:600px;
+                background-color:#6b99c2;
+                margin: 0px auto;
+
+                }
+            .tache{
+                height:40px;
+                width:300px;
+            }
+
+            button{
+                background: #016ABC;
+                color: #fff;
+                border: 1px #eee;
+                border-radius: 5px;
+                text-shadow:none;
+                }
+
+            h1{
+                color: rgb(29, 4, 45); 
+            }
+            
+            h2{
+                color: rgb(248, 245, 245); 
+            }
+
+            a { 
+                color: #fff; 
+                font-size: 40px; }
+            
+                .barre {
+                    text-decoration: line-through;
+                }
+
+            /* section {
+                width: 800px;
+                margin: 0px auto;
+            } */
+
+
+           
+    
